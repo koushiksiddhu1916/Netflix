@@ -5,7 +5,7 @@
   In this project, I have created Responsive Netflix Clone, The project is built using HTML5, CSS3 & JavaScript.
 
   Demo: 
-  https://shashikantyadavv.github.io/Responsive-Netflix-clone/ 
+ (https://github.com/koushiksiddhu1916/Netflix) 
   ```
 
 </div>
@@ -27,7 +27,7 @@ To run **Responsive-Netflix-clone** locally, run this command on your git bash:
 Windows:
 
 ```bash
-git clone https://github.com/Shashikantyadavv/Responsive-Netflix-clone.git
+git clone https://github.com/koushiksiddhu1916/Netflix.git
 ```
 
 
