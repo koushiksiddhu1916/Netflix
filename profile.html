@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Netflix Profile Page</title>
+  <style>
+    /* profile.css */
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Helvetica Neue', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #141414;
+      color: #ffffff;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 50px auto;
+      padding: 20px;
+      background-color: #1f1f1f;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    }
+
+    h1 {
+      font-size: 36px;
+      border-bottom: 2px solid #e50914;
+      padding-bottom: 10px;
+      margin-bottom: 30px;
+      color: #e50914;
+      text-align: center;
+    }
+
+    .section {
+      margin-bottom: 40px;
+    }
+
+    .section h2 {
+      color: #ffffff;
+      font-size: 24px;
+      border-bottom: 1px solid #444;
+      padding-bottom: 8px;
+      margin-bottom: 15px;
+    }
+
+    .box {
+      background-color: #2a2a2a;
+      padding: 20px;
+      border-radius: 8px;
+    }
+
+    .box p {
+      margin: 10px 0;
+      font-size: 16px;
+    }
+
+    .box button {
+      background-color: #e50914;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      margin: 10px 5px 0 0;
+      border-radius: 4px;
+      font-size: 14px;
+      cursor: pointer;
+      transition: background-color 0.2s ease;
+    }
+
+    .box button:hover {
+      background-color: #f40612;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Account</h1>
+
+    <!-- Membership & Billing -->
+    <section class="section">
+      <h2>Membership & Billing</h2>
+      <div class="box">
+        <p><strong>Email:</strong> user@example.com</p>
+        <p><strong>Password:</strong> ********</p>
+        <p><strong>Plan:</strong> Premium (4K+HDR)</p>
+        <button>Change Email</button>
+        <button>Change Plan</button>
+        <button>Cancel Membership</button>
+      </div>
+    </section>
+
+    <!-- Profile & Parental Controls -->
+    <section class="section">
+      <h2>Profile & Parental Controls</h2>
+      <div class="box">
+        <p><strong>Profile Name:</strong> John</p>
+        <p><strong>Language:</strong> English</p>
+        <p><strong>Maturity Settings:</strong> All Maturity Ratings</p>
+        <button>Edit Profile</button>
+        <button>Manage Parental Controls</button>
+      </div>
+    </section>
+
+    <!-- Password & Security -->
+    <section class="section">
+      <h2>Password & Security</h2>
+      <div class="box">
+        <p><strong>Last Changed:</strong> March 10, 2025</p>
+        <p><strong>2-Step Verification:</strong> Enabled</p>
+        <button>Change Password</button>
+        <button>Manage Devices</button>
+      </div>
+    </section>
+  </div>
+</body>
+</html>
