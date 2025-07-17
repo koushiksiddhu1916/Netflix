@@ -24,10 +24,6 @@ Before you begin, ensure you have met the following requirements:
 
 To run **Responsive-Netflix-clone** locally, run this command on your git bash:
 
-Windows:
 
-```bash
-git clone https://github.com/koushiksiddhu1916/Responsive-Netflix-clone.git
-```
 
 
